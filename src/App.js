@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/layout/header';
+import Banner from './components/layout/Banner';
 import Footer from './components/layout/footer';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
+        <Banner />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Footer />
       </header>
