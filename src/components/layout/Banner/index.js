@@ -1,4 +1,4 @@
-import { directive } from "@babel/types";
+import { directive } from "./node_modules/@babel/types";
 
 function Banner() {
     return (
