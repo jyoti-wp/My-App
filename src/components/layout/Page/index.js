@@ -1,6 +1,6 @@
 function Page () {
     return (
-        <div className="page-banner">
+        <div className="page-banner" style={{ backgroundImage: "url(/ocean.png)" }}>
             <div className="page-banner-image"></div>
             <div className="page-banner-content container">
                 <h1 className="headline-large">Welcome!</h1>
